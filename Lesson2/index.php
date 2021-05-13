@@ -212,14 +212,5 @@ include __DIR__ . '/functions.php';
 
     //Задание 4
     $name = 'Алина';
-    $res = get_sex_by_name($name);
-    if ($res === 'male') {
-        echo 'Мужчина';
-    }
-    elseif (res === 'female') {
-        echo 'Женщина';
-    }
-    else {
-        echo 'Пол не определен';
-    }
+    echo get_sex_by_name($name);
 ?>
