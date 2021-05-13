@@ -11,30 +11,30 @@
         return pow($b, 2) - 4 * $a * $c;
     }
 
-    assert('female' === get_sex_by_name('Елена'));
-    assert('female' === get_sex_by_name('Екатерина'));
-    assert('female' === get_sex_by_name('Дарья'));
-    assert('female' === get_sex_by_name('Виктория'));
-    assert('female' === get_sex_by_name('Ольга'));
-    assert('female' === get_sex_by_name('Александра'));
-    assert('female' === get_sex_by_name('Евгения'));
-    assert('female' === get_sex_by_name('Валентина'));
-    assert('female' === get_sex_by_name('Павла'));
-    assert('male' === get_sex_by_name('Петр'));
-    assert('male' === get_sex_by_name('Степан'));
-    assert('male' === get_sex_by_name('Даниил'));
-    assert('male' === get_sex_by_name('Альберт'));
-    assert('male' === get_sex_by_name('Иван'));
-    assert('male' === get_sex_by_name('Сергей'));
-    assert('male' === get_sex_by_name('Василий'));
-    assert('male' === get_sex_by_name('Максим'));
-    assert('male' === get_sex_by_name('Артём'));
-    assert('male' === get_sex_by_name('Евгений'));
-    assert('male' === get_sex_by_name('Александр'));
-    assert('male' === get_sex_by_name('Валентин'));
-    assert('male' === get_sex_by_name('Павел'));
-    assert('male' === get_sex_by_name('Евгений'));
-    assert('male' === get_sex_by_name('Александр'));
+    assert('Женщина' === get_sex_by_name('Елена'));
+    assert('Женщина' === get_sex_by_name('Екатерина'));
+    assert('Женщина' === get_sex_by_name('Дарья'));
+    assert('Женщина' === get_sex_by_name('Виктория'));
+    assert('Женщина' === get_sex_by_name('Ольга'));
+    assert('Женщина' === get_sex_by_name('Александра'));
+    assert('Женщина' === get_sex_by_name('Евгения'));
+    assert('Женщина' === get_sex_by_name('Валентина'));
+    assert('Женщина' === get_sex_by_name('Павла'));
+    assert('Мужчина' === get_sex_by_name('Петр'));
+    assert('Мужчина' === get_sex_by_name('Степан'));
+    assert('Мужчина' === get_sex_by_name('Даниил'));
+    assert('Мужчина' === get_sex_by_name('Альберт'));
+    assert('Мужчина' === get_sex_by_name('Иван'));
+    assert('Мужчина' === get_sex_by_name('Сергей'));
+    assert('Мужчина' === get_sex_by_name('Василий'));
+    assert('Мужчина' === get_sex_by_name('Максим'));
+    assert('Мужчина' === get_sex_by_name('Артём'));
+    assert('Мужчина' === get_sex_by_name('Евгений'));
+    assert('Мужчина' === get_sex_by_name('Александр'));
+    assert('Мужчина' === get_sex_by_name('Валентин'));
+    assert('Мужчина' === get_sex_by_name('Павел'));
+    assert('Мужчина' === get_sex_by_name('Евгений'));
+    assert('Мужчина' === get_sex_by_name('Александр'));
 
 function get_sex_by_name($name)
     {
@@ -42,43 +42,43 @@ function get_sex_by_name($name)
 
         switch(true) {
             case 'а' == $last_char:
-                return 'female';
+                return 'Женщина';
             case 'я' == $last_char:
-                return 'female';
+                return 'Женщина';
             case 'е' == $last_char:
-                return 'female';
+                return 'Женщина';
             case 'б' == $last_char:
-                return 'male';
+                return 'Мужчина';
             case 'в' == $last_char:
-                return 'male';
+                return 'Мужчина';
             case 'г' == $last_char:
-                return 'male';
+                return 'Мужчина';
             case 'д' == $last_char:
-                return 'male';
+                return 'Мужчина';
             case 'к' == $last_char:
-                return 'male';
+                return 'Мужчина';
             case 'л' == $last_char:
-                return 'male';
+                return 'Мужчина';
             case 'м' == $last_char:
-                return 'male';
+                return 'Мужчина';
             case 'н' == $last_char:
-                return 'male';
+                return 'Мужчина';
             case 'о' == $last_char:
-                return 'male';
+                return 'Мужчина';
             case 'п' == $last_char:
-                return 'male';
+                return 'Мужчина';
             case 'р' == $last_char:
-                return 'male';
+                return 'Мужчина';
             case 'с' == $last_char:
-                return 'male';
+                return 'Мужчина';
             case 'т' == $last_char:
-                return 'male';
+                return 'Мужчина';
             case 'й' == $last_char:
-                return 'male';
+                return 'Мужчина';
             case 'ь' == $last_char:
-                return 'male';
+                return 'Мужчина';
             default:
-                return 'undefined';
+                return 'Пол не определен';
         }
     }
 ?>
