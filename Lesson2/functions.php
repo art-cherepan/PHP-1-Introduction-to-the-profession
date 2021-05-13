@@ -40,7 +40,7 @@ function get_sex_by_name($name)
     {
         $last_char = mb_substr($name, -1);
 
-        switch(true) {
+        switch($last_char) {
             case 'а' == $last_char:
                 return 'Женщина';
             case 'я' == $last_char:
