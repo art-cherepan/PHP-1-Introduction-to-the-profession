@@ -6,7 +6,7 @@ class GuestBook extends TextFile
 {
     public function append($text)
     {
-        array_push($this->records, $text);
+        $this->records[] = $text;
         return $this;
     }
 }
