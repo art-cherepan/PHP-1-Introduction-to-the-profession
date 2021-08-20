@@ -1,0 +1,82 @@
+.body-color {
+    background-color: #dddddd;
+}
+.nav {
+    overflow: hidden;
+    background-color: #FFFAFA;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav a {
+    float: right;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin-right: 20px;
+    font-size: 20px;
+    padding: 14px 16px;
+}
+
+.nav a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.div-left {
+    padding: 14px 16px;
+    color: black;
+    text-align: left;
+    font-size: 18px;
+}
+
+.body {
+    margin-top: 30px;
+}
+
+.wrapper p {
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+}
+
+.img-offset {
+    margin-top: 40px;
+}
+
+.comment-nav {
+    font-weight: bold;
+    font-size: 10pt;
+}
+
+.product-header-name {
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+.product-header-price {
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+.msg {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.footer {
+    overflow: hidden;
+    background-color: #333;
+    color: whitesmoke;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+.footer img {
+    margin-top: 14px;
+    margin-bottom: 16px;
+}
