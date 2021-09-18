@@ -1,0 +1,100 @@
+.body-color {
+    background-color: #dddddd;
+}
+
+header {
+    overflow: hidden;
+    background-color: #FFFAFA;
+    top: 0;
+    width: 100%;
+}
+
+header a {
+    float: right;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin-right: 0px;
+    font-size: 18px;
+    padding: 14px 16px;
+}
+
+header a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.header-username-style {
+    padding: 14px 16px;
+    color: black;
+    text-align: left;
+    font-size: 18px;
+}
+
+.content {
+    margin-top: 30px;
+}
+
+.wrapper p {
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+}
+
+.img-offset {
+    margin-top: 40px;
+}
+
+.comment-nav {
+    font-weight: bold;
+    font-size: 10pt;
+}
+
+.product-header-name {
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+.product-header-price {
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+.msg {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("/Lesson9/media/left-arrow.svg");
+}
+
+.carousel-control-next-icon {
+    background-image: url("/Lesson9/media/right-arrow.svg");
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 20px;
+}
+
+.carousel-control-next {
+    right: -35px;
+}
+
+.carousel-control-prev {
+    left: -35px;
+}
+
+footer {
+    background-color: #333;
+    color: whitesmoke;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+footer img {
+    margin-top: 14px;
+    margin-bottom: 16px;
+}
